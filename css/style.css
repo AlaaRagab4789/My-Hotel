@@ -1,0 +1,528 @@
+*{
+
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+a{
+
+text-decoration: none;
+}
+
+body{
+
+font-family: 'Tajawal', sans-serif;
+direction: rtl;
+
+}
+
+
+.navbar-light .navbar-toggler{
+
+border: none;
+outline: none;
+}
+
+.navbar-toggler{
+
+    font-size: 1.3rem;
+    display: none;
+    
+}
+
+.navbar-toggler i{
+
+color: #fff;
+}
+
+.navbar-toggler:focus{
+text-decoration: none;
+outline: 0;
+box-shadow: 0 0 0 0rem;
+}
+
+.navbar .navbar-brand{
+
+font-size: 23px;
+color: #282828bd;
+}
+
+.navbar{
+
+direction: rtl;
+padding-top: 0.1rem;
+padding-bottom: 0.2rem;
+}
+
+
+.navbar .data{
+
+margin: 0px;
+}
+
+.navbar .data li{
+
+list-style-type: none;
+float: left;
+padding: 15px 10px;
+margin: 0px;
+
+}
+
+.navbar .data li a i{
+
+padding-left: 8px;
+font-size: 14px;
+color: #ddd;
+}
+
+.navbar .data li a{
+
+text-decoration: none;
+color: #fff;
+font-size: 15px;
+}
+
+.navbar img{
+
+width: 70px;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #1a789b!important;
+}
+
+.navbar-nav a i{
+
+padding-left: 8px;
+font-size: 14px;
+color: #999;
+
+}
+
+.navbar-nav .nav-item{
+
+padding: 6px 0px;
+}
+
+
+
+
+
+
+
+@media(max-width:768px){
+
+
+
+
+.navbar-toggler{
+
+    font-size: 1.6rem;
+    display: block;
+    
+}
+
+
+.navbar .data{
+
+list-style-type: none;
+float: left;
+padding: 15px 10px;
+margin: 0px;
+display: none;
+
+}
+
+}
+
+
+
+/**Start Header**/
+
+.header1{
+
+background-image: url(../image/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg);
+height: 70vh;   
+background-size: 100% 100%; 
+background-repeat: no-repeat;
+margin-top: 74px;
+}
+
+
+.header1 .header2{
+
+height: 70vh;
+align-items: center;
+color: #fff;
+}
+
+.header1 .header2 div h1{
+
+font-size: 40px;
+
+}
+
+.header1 .header2 div p{
+
+padding: 10px 0px;
+font-size: 24px;
+}
+
+.header1 .header1-alpha{
+
+background-color: rgba(0,0,0,.3);
+height: 100%;
+}
+
+@media(max-width: 768px){
+
+.header1 .header2 div h1{
+
+font-size: 20px;    
+
+}
+
+.header1 .header2 div p{
+
+padding: 10px 0px;
+font-size: 16px;
+}
+
+.header1{
+
+background-image: url(../image/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg);
+height: 25vh;   
+background-size: 100% 100%; 
+background-repeat: no-repeat;
+margin-top: 74px;
+}
+
+
+.header1 .header2{
+
+height: 25vh;
+align-items: center;
+color: #fff;
+}
+
+
+}
+
+/**End Header**/
+
+
+/**Start Second**/
+
+.second{
+
+padding: 30px 0px;
+margin-top: -60px;
+
+
+}
+
+.second input{
+
+padding: 12px 9px;
+border: none;
+outline: none;
+}
+
+.second input::placeholder{
+
+font-size: 15px;
+}
+
+.second .form1{
+
+display: flex;
+flex-wrap: wrap;
+}
+
+.second .form1 div{
+
+background-color: #fff;
+border: 4px solid#e4801c;
+border-left: 0px;
+padding: 0px 12px;
+
+}
+
+.second .form1 div:nth-of-type(1){
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.second .form1 div:nth-of-type(4){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.second .form1 div i{
+
+color: #bbb;
+font-size: 17px;
+}
+
+.second .form1 .sub{
+
+border: 4px solid#e4801c;
+padding: 0px;
+
+
+}
+
+.second input[type="submit"]{
+
+width: 100%;
+background-color: #1a789b!important;
+color: #fff;
+font-size: 16px;
+}
+
+@media(max-width: 768px){
+
+.second .form1 div{
+
+background-color: #fff;
+border: 4px solid#e4801c;
+padding: 0px 12px;
+border-bottom: 0px;
+
+}
+
+.second .form1 div:nth-of-type(1){
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.second .form1 div:nth-of-type(4){
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+}
+
+
+/**End Second**/
+
+
+
+.offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 100%;
+    border-left: 1px solid rgba(0,0,0,.2);
+    transform: translateX(100%);
+}
+
+.Photo-head2{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+
+.offcanvas-body {
+    flex-grow: 1;
+    padding: 1rem 1rem;
+    overflow-y: hidden;
+}
+
+.offcanvas-backdrop.show {
+
+
+  opacity: 0;
+  display: none;
+ }
+
+ .offcanvas .show {
+  
+  opacity: 0;
+  display: none;
+}
+
+
+.mt-new-seaction{
+
+padding: 20px 0px;
+}
+
+.element-list {
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.element-list {
+    flex-wrap: wrap;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+body, html {
+    direction: rtl;
+}
+body {
+    color: #555;
+    text-align: initial;
+}
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+}
+body {
+    font-weight: 400;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    line-height: 1.15;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.container{
+
+width: 93%;
+}
+
+/**Start Section2**/
+
+.section2{
+
+padding: 15px 0px;
+
+}
+
+.section2 .card-footer{
+
+padding: 15px 10px;
+}
+
+.section2{
+
+font-size: 14px;
+}
+
+.section2 .row{
+
+padding: 10px 0px;
+}
+
+.section2 h5{
+
+padding-bottom: 10px;
+font-size: 15px;
+}
+
+.section2 .card-footer button{
+
+border: none;
+padding: 8px 40px;
+background-color: #48667c;
+color: #fff;
+border-radius: 2px;
+font-size: 13px;
+
+}
+
+.section2 .card-body{
+
+padding: 15px 10px;
+}
+
+.section2 h3{
+
+padding: 10px 0px;
+}
+
+.section2 .card img{
+
+height: 242px;
+}
+
+/**End Section2**/
+
+/**Start Footer**/
+.footer{
+
+background-color: #1a789b!important;
+direction: ltr;
+
+}
+
+.footer p{
+
+padding: 0px;
+margin: 0px;
+color: #bbb;
+font-size: 14px;
+}
+
+.footer p a i{
+
+padding: 25px 10px;
+color: #bbb;
+font-size: 14px;
+}
+
+.footer .para2{
+
+padding: 20px 0px;
+}
+
+/**End Footer**/
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    transition: .3s;
+}
+::-webkit-scrollbar-thumb {
+    background: #e1e6f1;
+}
