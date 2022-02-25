@@ -194,7 +194,7 @@ font-size: 16px;
 .header1{
 
 background-image: url(../image/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg);
-height: 25vh;   
+height: 30vh;   
 background-size: 100% 100%; 
 background-repeat: no-repeat;
 margin-top: 74px;
@@ -203,7 +203,7 @@ margin-top: 74px;
 
 .header1 .header2{
 
-height: 25vh;
+height: 30vh;
 align-items: center;
 color: #fff;
 }
