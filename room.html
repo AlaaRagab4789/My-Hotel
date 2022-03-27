@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<div lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hotel</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/room.css">
+</head>
+
+<!--This Is Navbar-->
+<nav class="navbar navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#" style="font-weight: bold;color: #fff">My Hotel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <i class="fa fa-bars"></i>
+    </button>
+
+     <ul class="data">
+
+     
+      <li style="display: none;"><a href="contact.html" title="Arabic"><img src="image/ar.png" style="width: 25px;"></a></li>
+      <li><a href="#" title="English"><img src="image/en_US.png" style="width: 25px;"></a></li>
+      <li><a href="contact.html"><i class="fa fa-address-book"></i>تواصل معنا</a></li>
+      <li><a href="login.html"><i class="fa fa-address-book"></i>تسجيل دخول</a></li>
+      <li><a href="login.html"><i class="fa fa-search"></i>عرض حجزي</a></li>
+      <li><a href="index.html">الرئيسية</a></li>
+     </ul>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <a class="navbar-brand" href="#" style="font-weight: bold;">My Hotel</a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"><i class="fa fa-home"></i>الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fa fa-search"></i>عرض حجزي</a>
+          </li>
+
+        
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fa fa-address-book"></i>تسجيل دخول</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><i class="fa fa-address-book"></i>تواصل معنا</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><img src="image/en_US.png" alt="" srcset="" style="width: 25px;"></a>
+          </li>
+        
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--End Navbar-->
+
+<!--Start section222-->
+<div class="container">
+<div class="section2222">
+
+   <h3>أنواع الغرف المختلفة في الفندق</h3>
+
+    
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="image/christopher-jolly-GqbU78bdJFM-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">غرفة مفردة - فردية  Single</h5>
+
+
+          <p class="serv"> خطة الوجبة : <span>مبيت وإفطار</span></p>
+          <p class="serv"> الحد الأقصى للإشغال : <span>1 بالغ</span> <span> - 1 أطفال </span> </p>
+          <p class="serv">حجم الغرفة : <span>32 متر</span> </p>
+          <p class="serv">سعر الغرفه لليله الواحده : <span> <span style="color: #f90;font-weight: 600">100 ريال </span> </span> </p>
+
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><button onclick="Room();">حجز الغرفه</button></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="image/sidekix-media-8qNuR1lIv_k-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">غرفة مزدوجة Double</h5>
+          
+            <p class="serv"> خطة الوجبة : <span>مبيت وإفطار</span></p>
+            <p class="serv"> الحد الأقصى للإشغال : <span>1 بالغ</span> <span> - 1 أطفال </span> </p>
+            <p class="serv">حجم الغرفة : <span>32 متر</span> </p>
+            <p class="serv">سعر الغرفه لليله الواحده : <span> <span style="color: #f90;font-weight: 600">100 ريال </span> </span> </p>
+  
+
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><button onclick="Room();">حجز الغرفه</button></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="image/sidekix-media-EoTUCbv9Jrs-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">غرفة رباعية Quad</h5>
+         
+            <p class="serv"> خطة الوجبة : <span>مبيت وإفطار</span></p>
+            <p class="serv"> الحد الأقصى للإشغال : <span>1 بالغ</span> <span> - 1 أطفال </span> </p>
+            <p class="serv">حجم الغرفة : <span>32 متر</span> </p>
+            <p class="serv">سعر الغرفه لليله الواحده : <span> <span style="color: #f90;font-weight: 600">100 ريال </span> </span> </p>
+  
+
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"><button onclick="Room();">حجز الغرفه</button></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="image/sidekix-media-ghhDWuGK9QY-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">غرفة توأم Twin</h5>
+        
+            <p class="serv"> خطة الوجبة : <span>مبيت وإفطار</span></p>
+            <p class="serv"> الحد الأقصى للإشغال : <span>1 بالغ</span> <span> - 1 أطفال </span> </p>
+            <p class="serv">حجم الغرفة : <span>32 متر</span> </p>
+            <p class="serv">سعر الغرفه لليله الواحده : <span> <span style="color: #f90;font-weight: 600">100 ريال </span> </span> </p>
+  
+       
+          </div>
+        <div class="card-footer">
+          <small class="text-muted"><button onclick="Room();">حجز الغرفه</button></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="image/collov-home-design-n9CzpBTNElo-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">مزدوج مزدوجة ثنائية Double</h5>
+          
+            <p class="serv"> خطة الوجبة : <span>مبيت وإفطار</span></p>
+            <p class="serv"> الحد الأقصى للإشغال : <span>1 بالغ</span> <span> - 1 أطفال </span> </p>
+            <p class="serv">حجم الغرفة : <span>32 متر</span> </p>
+            <p class="serv">سعر الغرفه لليله الواحده : <span> <span style="color: #f90;font-weight: 600">100 ريال </span> </span> </p>
+  
+       
+          </div>
+        <div class="card-footer">
+          <small class="text-muted"><button onclick="Room();">حجز الغرفه</button></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="image/sidekix-media-g8tb9SXqZVQ-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">جناح / جناح تنفيذي Suite - Executive Suite</h5>
+         
+        
+            <p class="serv"> خطة الوجبة : <span>مبيت وإفطار</span></p>
+            <p class="serv"> الحد الأقصى للإشغال : <span>1 بالغ</span> <span> - 1 أطفال </span> </p>
+            <p class="serv">حجم الغرفة : <span>32 متر</span> </p>
+            <p class="serv">سعر الغرفه لليله الواحده : <span> <span style="color: #f90;font-weight: 600">100 ريال </span> </span> </p>
+  
+          </div>
+        <div class="card-footer">
+          <small class="text-muted"><button onclick="Room();">حجز الغرفه</button></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<!--End section222-->
+
+<!--Start download
+
+<div class="down">
+<div class="container">
+<div class="row">
+
+ <div class="down1 col-lg-6 col-12">
+
+  <h3>حمّل تطبيق فندقي !</h3>
+  <p>كل ما تحتاجه الآن رهن اشارتك مع رفيق سفرك الدائم إلى أي مكان في العالم: الدفع الآمن عبر الانترنت، أفضل عروض والفنادق ، تجربة حجز ممتعة وسهلة!</p>
+
+ </div>
+ 
+ <div class="down2 col-lg-6 col-12">
+
+  <h3>متوفر حالياً</h3>
+  <a href="#"><img src="image/appstore-icon.svg" alt="" srcset=""></a><br>
+  <a href="#"><img src="image/google-play-icon.svg" alt="" srcset=""></a>
+
+ </div>
+
+</div>
+</div>
+</div>
+
+
+End download-->
+
+
+
+<!--Start location-->
+
+<div class="head-location">
+  <div class="container">
+  <div class="row">
+  
+    <div class="head-location1 col-lg-4 col-12">
+  
+      <h3>!فندقي</h3>
+      <p style="line-height: 1.8em;">تأسست my-hotel منذ فبراير 2022 ، نحن وكالة سفر للفنادق عبر الإنترنت يبحث فريق موقع www.myhotel.com باستمرار عن المزيد من الأفكار والترقيات من خلال أحدث التقنيات لجعلها أسهل وأسرع لعملائنا لحجز عطلتهم.</p>
+  
+    </div>
+  
+    <div class="head-location2 col-lg-2 col-12">
+  
+      <h3>معلومات اكثر</h3>
+      <p><a href="nav.html"> <span><i class="fa fa-arrow-left"></i></span> <span>الرئيسية</span> </a></p>
+      <p><a href="nav.html"> <span><i class="fa fa-arrow-left"></i></span> <span>عرض حجزي</span> </a></p>
+      <p><a href="nav.html"> <span><i class="fa fa-arrow-left"></i></span> <span>تواصل معنا</span> </a></p>
+  
+    </div>
+  
+    <div class="head-location3 col-lg-6 col-12">
+  
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3523.9661362788074!2d34.40096178545579!3d27.964323320759686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145349989119ae9f%3A0x14966da78a236980!2sCONCORDE%20EL%20SALAM%20HOTEL%20SHARM%20EL%20SHEIKH%20BY%20ROYAL%20TULIP!5e0!3m2!1sar!2seg!4v1647518986661!5m2!1sar!2seg" width="100%" height="240" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  
+  </div>
+  </div>
+  </div>
+  
+  
+  <!--End location-->
+
+  
+
+<!--Start Footer-->
+<div class="footer">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-6 col-12">
+
+<p class="para2">© 2021 Resido. Designd By Alaa Ragab All Rights Reserved
+
+</p>
+
+</div>
+
+<div class="col-lg-6 col-12">
+
+  <p class="para22"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
+  </p>
+  
+</div>
+
+
+</div>
+</div>
+</div>
+<!--End Footer-->
+
+
+
+
+
+<script src="js/jquery2.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/show.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".datepicker" ).datepicker({ minDate: -20, maxDate: "+1M +10D" });
+  } );
+  </script>
+</body>
+</html>
